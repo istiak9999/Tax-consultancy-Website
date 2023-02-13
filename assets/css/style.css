@@ -286,6 +286,8 @@ h6 {
 
 .mobile-nav-toggle.bi-x {
   color: #fff;
+
+
 }
 
 @media (max-width: 991px) {
@@ -392,6 +394,8 @@ h6 {
   position: relative;
 }
 
+
+
 #hero .carousel,
 #hero .carousel-inner,
 #hero .carousel-item,
@@ -403,13 +407,13 @@ h6 {
   bottom: 0;
 }
 
-#hero .carousel-item {
+#hero .carousel-item{
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
 
-#hero .carousel-item::before {
+#hero .carousel-item ::before {
   content: "";
   background-color: rgba(4, 12, 21, 0.5);
 }
@@ -767,9 +771,10 @@ section {
 }
 
 .why-us .accordion-list li {
+  width: 60%;
   padding: 20px;
   background: #fff;
-  border-radius: 4px;
+  border-radius: 30px;
 }
 
 .why-us .accordion-list a {
@@ -940,6 +945,31 @@ section {
   }
 }
 
+
+.btn-apply-online {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #ed502e;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-bottom:20px;
+  border: 2px solid #ed502e;
+}
+
+.btn-apply-online:hover {
+  background: #ed502e;
+  color: #fff;
+  text-decoration: none;
+}
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -961,11 +991,13 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
   margin-bottom: 20px;
   transform-style: preserve-3d;
   position: relative;
   z-index: 2;
 }
+
 
 .services .icon-box .icon i {
   color: #fff;
@@ -988,12 +1020,36 @@ section {
 
 .services .icon-box h4 {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-size: 24px;
 }
 
 .services .icon-box h4 a {
   color: #0b2341;
+}
+
+.services .icon-box .btn-learnmore{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  line-height: 1;
+  color:#0b2341;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 20px;
+  margin-bottom:20px;
+  border: 2px solid #0b2341;
+}
+
+.services .icon-box .btn-learnmore:hover {
+  background: #ed502e;
+  color: #fff;
+  text-decoration: none;
 }
 
 .services .icon-box p {
@@ -1005,6 +1061,8 @@ section {
 .services .icon-box:hover {
   background: #ed502e;
   border-color: #ed502e;
+  scale: 1.075;
+  border-radius: 30px;
 }
 
 .services .icon-box:hover .icon {
