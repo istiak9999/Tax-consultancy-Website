@@ -533,7 +533,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #ef6445;
+  background: #ed502e;
+  scale: 1.2;
 }
 
 @media (max-width: 992px) {
@@ -1097,15 +1098,26 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px 30px 30px 60px;
-  margin: 30px 15px;
+  #margin: 30px 15px;
   min-height: 200px;
   box-shadow: 0px 0px 20px 0px rgba(11, 35, 65, 0.1);
   position: relative;
   background: #fff;
 }
 
+.testimonials .testimonial-img {
+  height: 275px;
+  width: 275px;
+  border-radius: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  min-height: 200px;
+  position: relative;
+}
+
+
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 100px;
   border-radius: 10px;
   border: 6px solid #fff;
   position: absolute;
@@ -1165,6 +1177,33 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #ed502e;
 }
+
+
+.testimonials .testimonial-item .btn-learnmore{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  line-height: 1;
+  color:#0b2341;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 20px;
+  margin-bottom:20px;
+  border: 2px solid #0b2341;
+}
+
+.testimonials .testimonial-item .btn-learnmore:hover {
+  background: #ed502e;
+  color: #fff;
+  text-decoration: none;
+}
+
+
 
 /*--------------------------------------------------------------
 # Cta
@@ -1800,6 +1839,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
+  justify-content: center;
 }
 
 #footer .footer-top .footer-info {
@@ -1892,18 +1932,29 @@ section {
   color: #ef6445;
 }
 
+
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
   padding: 6px 10px;
   position: relative;
   border-radius: 4px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 1.5px solid #ef6445;
+  padding: 10px;
 }
 
 #footer .footer-top .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px;
-  width: calc(100% - 110px);
+  width: 60%;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit] {
