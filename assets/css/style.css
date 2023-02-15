@@ -444,6 +444,17 @@ h6 {
   padding-top: 20px;
 }
 
+#serv .container-item .table-container{
+  padding-top: 30px;
+}
+#serv .container-item .table-container table,td{
+  border: 1px  #ed502e;
+  padding-left: 5px ;
+  padding-right: 5px;
+  border-collapse: collapse;
+
+}
+
 
 
 /*--------------------------------------------------------------
@@ -891,6 +902,15 @@ section {
   text-decoration: none;
 }
 
+.about .content .table-container{
+  padding-top: 30px;
+}
+.about .content .table-container table,td{
+  border: 1px dotted #ed502e;
+  border-collapse: collapse;
+
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -1305,6 +1325,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+
 .testimonials .testimonial-wrap {
   padding-left: 50px;
 }
