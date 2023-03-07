@@ -506,19 +506,28 @@ h6 {
 }
 
 #remote .count-box {
-  box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
+
   padding: 10px 5px 10px 25px;
   width: 100%;
   margin: 10px;
-  border-radius: 30px;
+  border-radius: ;
   justify-content: center;
+  background-color: #bfd5ef;
 }
+
+#remote .container .count-box:hover{
+  scale: 1.075;
+  background-color: #9fb0c5;
+  box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
+}
+
 
 #remote .count-box p {
   padding: 10px 0 0 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
+  color: whitesmoke;
 }
 
 #remote .count-box a {
@@ -659,7 +668,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #fff;
+  color:#ed502e;
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -668,8 +677,9 @@ h6 {
 #hero p {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  color: #fff;
+  color: #000000;
   margin-top: 10px;
+  font-size: 20px;
 }
 
 @media (min-width: 1200px) {
